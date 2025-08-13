@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base night theme -->
+    <style name="Base.Theme.HamroNews" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorOnPrimary">@color/black</item> <!-- Better contrast on red in dark mode -->
+
+        <!-- Secondary accent color -->
+        <item name="colorSecondary">@color/red_secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background and surface colors -->
+        <item name="background">@color/dark_background</item> <!-- e.g., #121212 -->
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorSurface">@color/dark_background</item> <!-- e.g., #1E1E1E -->
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Error color -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/black</item>
+
+        <!-- Optional: Customize typography or shapes if needed -->
+    </style>
+
+    <style name="Theme.HamroNews" parent="Base.Theme.HamroNews" />
+</resources>

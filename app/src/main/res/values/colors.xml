@@ -1,0 +1,11 @@
+<resources>
+    <color name="red_primary">#D32F2F</color> <!-- Deep red -->
+    <color name="red_secondary">#C2185B</color> <!-- Reddish pink accent -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F5F5F5</color>
+    <color name="error">#B00020</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_background">#121212</color>
+
+</resources>
